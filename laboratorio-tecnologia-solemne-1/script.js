@@ -2,7 +2,7 @@ import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm"
 import data from './data.json' with {type : 'json'}
 
 d3.select("svg")
-  .style("background-color", "#c4bdbdff");
+  .style("background-color", "#c4bdbdff"); // color del fondo 
 
 const svg = d3.select("svg"),
   margin = {top: 40, right: 500, bottom: 80, left: 70}, // margen 
